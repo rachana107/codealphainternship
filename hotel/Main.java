@@ -2,7 +2,6 @@ package hotel;
 
 import java.util.Scanner;
 import java.time.LocalDate;
-//import java.time.temporal.ChronoUnit;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Enter the type of room : ");
@@ -85,51 +84,6 @@ public class Main {
 
 
 
-
-        /*System.out.println("Rooms available are: ");
-        if (type.equals("deluxe")) {
-            int[] r = Room.set_Mem(type);
-            for (int i : r) {
-                System.out.println(i);
-            }
-        }
-        else{
-            int[] r = Room.set_Mem(type);
-            for(int i=5;i<10;i++){
-                System.out.println(i);
-            }
-        }
-        System.out.println("Enter the room number you want to make reservation: ");
-        int rn = sc.nextInt();
-        System.out.println("To confirm reservation type yes!!");
-        String type1 = sc.next();
-        if(type1.equals("yes")){
-            int no=rn-1;
-            System.out.println("Enter your name: ");
-            String name = sc.next();
-            //room.setReservationId(name,no);
-            String name1=name.concat("@123");
-            reserve.setId(name1);
-            System.out.println("Enter check in data(dd/MM/yyyy) : ");
-            String checkIn = sc.next();
-            reserve.setCheckInDate(checkIn);
-            System.out.println("Enter check out data(dd/MM/yyyy) : ");
-            String checkOut = sc.next();
-            reserve.setCheckOutDate(checkOut);
-            System.out.println("Your reservation is successfully made");
-            //room.setAvailable(false,no);
-        }
-        else{
-            System.out.println("Reservation canceled!!");
-        }
-        System.out.println("If you wanted to view reservation details enter yes!!");
-        String type2 = sc.next();
-        if(type2.equals("yes")){
-            reserve.getReservationDetails();
-            //System.out.println("Your reservation id is: "+Id);
-        }
-
-         */
 
 
 
